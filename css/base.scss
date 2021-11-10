@@ -3,4 +3,28 @@
 .main {
     width: 960px;
     margin: 0 auto;
+};
+
+$pc: 960px;
+$sp: 750px;
+
+@mixin pc {
+  @media (max-width: ($pc)) {
+    @content;
+  }
+}
+@mixin sp {
+  @media (max-width: ($sp)) {
+    @content;
+  }
+}
+//＠includeする事で、上記が適用される
+.body img {
+  @include pc {
+      
+  };
+
+  @include sp {
+      
+  };
 }
