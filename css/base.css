@@ -2,4 +2,29 @@
   width: 960px;
   margin: 0 auto;
 }
+
+#shipTypeArea.row {
+  padding: 10px;
+  border: solid 1px #000;
+}
+
+#shipTypeArea.row .col {
+  padding: 10px;
+}
+
+#shipTypeArea.row .col:nth-child(odd) {
+  border-right: solid 1px #000;
+  border-bottom: solid 1px #000;
+  border-left: solid 1px #000;
+}
+
+#shipTypeArea.row .col:nth-child(even) {
+  border-top: solid 1px #000;
+  border-right: solid 1px #000;
+  border-bottom: solid 1px #000;
+}
+
+#shipTypeArea.row .col:first-child {
+  border-top: solid 1px #000;
+}
 /*# sourceMappingURL=base.css.map */
