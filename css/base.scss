@@ -5,30 +5,27 @@
     margin: 0 auto;
 }
 
-#shipTypeArea.row {
-    padding: 10px;
-    border: solid 1px #000; 
+/*#shipTypeArea {
+  .col {
+      padding: 10px;
 
-    .col {
-        padding: 10px;
+      &:nth-child(odd) {
+          border-right: solid 1px #000;
+          border-bottom: solid 1px #000;
+          border-left: solid 1px #000;
+      }
 
-        &:nth-child(odd) {
-            border-right: solid 1px #000;
-            border-bottom: solid 1px #000;
-            border-left: solid 1px #000;
-        }
+      &:nth-child(even) {
+          border-right: solid 1px #000;
+          border-bottom: solid 1px #000;
+      }
 
-        &:nth-child(even) {
-            border-top: solid 1px #000;
-            border-right: solid 1px #000;
-            border-bottom: solid 1px #000;
-        }
-
-        &:first-child {
-            border-top: solid 1px #000;
-        }
-    }
-}
+      &:first-child,
+      &:nth-child(2) {
+          border-top: solid 1px #000;
+      }
+  }
+}*/
 
 $pc: 960px;
 $sp: 750px;
